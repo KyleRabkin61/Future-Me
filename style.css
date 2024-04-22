@@ -32,6 +32,8 @@ body {
 .header-text {
     font-size:3.1em;
     padding-left:30px;
+    text-decoration: underline;
+    text-decoration-color: #fdb44b;
 }
 .sub-header-text {
     font-size:1.5em;
@@ -46,10 +48,17 @@ body {
 .seperator {
     width: 0;
     height: 0;
-    border-right: 100vw solid transparent;
+    border-right: 96vw solid transparent;
     border-bottom: 113px solid #005792;
     margin-top: -130px;
 }
 .second {
     background: #005792;
+}
+.question-header {
+    text-decoration: underline;
+    text-decoration-color: #fdb44b;
+}
+.third {
+    background: #00bbf0;
 }
