@@ -1,0 +1,55 @@
+/* color scheme */
+
+/* 
+.first-color { 
+	background: #00204a; 
+}
+	
+.second-color { 
+	background: #005792; 
+}
+
+.third-color { 
+	background: #00bbf0; 
+}
+
+.fourth-color { 
+	background: #fdb44b; 
+}
+*/
+body {
+    padding: 0;
+}
+.container-fluid {
+    padding: 0;
+}
+.header {
+    height: 400px;
+    background-color: #00204a;
+    width: 100%;
+    padding:30px;
+}
+.header-text {
+    font-size:3.1em;
+    padding-left:30px;
+}
+.sub-header-text {
+    font-size:1.5em;
+    padding-left:55px;
+}
+.img1 {
+    position: relative;
+    top: 30px;
+    width:34vw;
+    max-width:400px;
+}
+.seperator {
+    width: 0;
+    height: 0;
+    border-right: 100vw solid transparent;
+    border-bottom: 113px solid #005792;
+    margin-top: -130px;
+}
+.second {
+    background: #005792;
+}
