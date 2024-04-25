@@ -31,9 +31,28 @@
     width: 100%;
     padding:30px;
 }
+.head-row {
+    display: inline-block;
+}
 .header-text {
     font-size:3.1em;
     padding-left:30px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 1s steps(10),
+        cursor .4s step-end infinite alternate;
+    
+}
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+@keyframes typing {
+    from {width: 0;}
 }
 .sub-header-text {
     font-size:1.5em;
