@@ -82,8 +82,16 @@
     border-bottom: 113px solid #005792;
     margin-top: -130px;
 }
+.seperator-2 {
+    width: 0;
+    height: 0;
+    border-right: 96vw solid transparent;
+    border-bottom: 113px solid #00bbf0;
+    margin-top: -130px;
+}
 .second {
     background: #005792;
+    height:550px;
 }
 .yellow-underline {
     text-decoration: underline;
