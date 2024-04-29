@@ -27,6 +27,7 @@
 }
 .header {
     height: 50vw;
+    min-height:250px;
     max-height:450px;
     background-color: #00204a;
     width: 100%;
@@ -71,8 +72,8 @@
     max-width:400px;
 }
 .img2 {
-    width:34vw;
-    max-width:900px;
+    width:100%;
+    max-width:700px;
     object-fit: cover;
 }
 .seperator {
@@ -91,7 +92,10 @@
 }
 .second {
     background: #005792;
-    height:550px;
+}
+.second-work-env {
+    background: #005792;
+    height:800px;
 }
 .yellow-underline {
     text-decoration: underline;
@@ -161,7 +165,7 @@
 
 footer {
     background: #00204a;
-    height:140px;
+    height:160px;
 }
 .footer-text {
     font-weight: 400;
