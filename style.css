@@ -60,7 +60,7 @@
     font-size:2.5vw;
     padding-left:55px;
     position: relative;
-    top:-1vw;
+    top:-2vw;
 }
 .yellow-border {
     border: 5px solid #fdb44b;
@@ -105,9 +105,12 @@
     background: #00bbf0;
     padding: 50px;
 }
+
+/* cards */
+
 .card {
     width: 20vw;
-    min-width:300px;
+    min-width:290px;
     height: 30vw;
     min-height: 400px;
     border-radius: 20px;
@@ -149,6 +152,8 @@
 }
 .card-info {
     font-size: 1em;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 .card-btn {
     color: #fff;
@@ -163,7 +168,7 @@
 
 /* chart */
 :root {
-    --border-color: #fdb44b
+    --border-color: #fff
 }
 .chart-container {
     margin: 32px auto;
